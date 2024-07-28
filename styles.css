@@ -226,7 +226,7 @@ html {
 
 /* Novo estilo para o container-7 */
 .container-7 {
-  background-image: url("./img/page1.jpg");
+  /* background-image: url("./img/page1.jpg"); */
   background-size: cover;
   background-position: center;
   height: 100vh;
