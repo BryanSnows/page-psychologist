@@ -405,3 +405,131 @@ html {
 .btn:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+  .container-3 {
+    width: 118.5%;
+  }
+  .container-3 .overlay {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-container h2 {
+    font-size: 30px;
+  }
+
+  .text-container p {
+    font-size: 18px;
+  }
+
+  .text-container button {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+
+  .container-4 {
+    width: 118.5%;
+  }
+
+  .container-4 .about-overlay {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .about-text-container h2 {
+    font-size: 28px;
+  }
+
+  .about-text-container p {
+    font-size: 18px;
+  }
+
+  .container-5 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .container-5 button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+  }
+
+  .container-6 {
+    width: 118.5%;
+  }
+
+  .container-6 .carousel-container {
+    width: 100%;
+    left: 0;
+  }
+
+  .carousel {
+    height: auto;
+  }
+
+  .text-content h2 {
+    font-size: 28px;
+  }
+
+  .text-content p {
+    font-size: 18px;
+  }
+
+  .text-content button {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+
+  .container-7 .text-content h2 {
+    font-size: 28px;
+  }
+
+  .container-7 .text-content p {
+    font-size: 18px;
+  }
+
+  .container-7 .carousel-prev,
+  .container-7 .carousel-next {
+    font-size: 16px;
+  }
+
+  .container-8 {
+    width: 100%;
+  }
+  .container-8 .text-side {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .container-8 h2 {
+    font-size: 36px;
+  }
+
+  .container-8 h3 {
+    font-size: 28px;
+  }
+
+  .container-8 p {
+    font-size: 18px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-item {
+    margin: 10px 0;
+  }
+
+  .footer-item a {
+    font-size: 14px;
+  }
+
+  .footer-item img {
+    width: 30px;
+    height: 30px;
+  }
+}
