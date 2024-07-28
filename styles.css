@@ -302,3 +302,43 @@ html {
 .container-7 .carousel-next {
   right: 10px;
 }
+
+.container-8 {
+  background-image: url("./img/page1.jpg");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.container-8 .text-side {
+  text-align: center;
+  width: 45%;
+  color: #69531a;
+  font-family: "The Seasons", serif;
+  padding: 0 90px;
+}
+
+.container-8 h2 {
+  font-family: "Abril Fatface", serif;
+  font-size: 72px;
+  margin: 0;
+}
+
+.container-8 h3 {
+  font-family: "The Seasons", serif;
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+.container-8 p {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.container-8 p:last-child {
+  font-size: 31px;
+  text-align: center;
+  font-family: "Questrial", sans-serif;
+}
