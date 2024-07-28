@@ -22,9 +22,11 @@
     <div class="container-3">
       <div class="overlay">
         <div class="text-container">
-          <h2 class="expand">Suas escolhas de forma consciente.</h2>
+          <h2 class="expand">O que te ​atravessa?</h2>
           <p>Aqui o que você sente é ouvido e importa!</p>
-          <button class="btn expand">Vamos conversar?</button>
+          <button class="btn expand" id="btn-vamos-conversar">
+            Vamos conversar?
+          </button>
         </div>
       </div>
     </div>
@@ -90,7 +92,9 @@
           Explore os aspectos mais profundos da sua psique e entenda as origens
           dos seus conflitos internos.
         </p>
-        <button class="btn expand">Vamos agendar?</button>
+        <button class="btn expand" id="btn-vamos-agendar">
+          Vamos agendar ?
+        </button>
       </div>
     </div>
     <!-- Novo container para Atendimento Online -->
@@ -153,7 +157,10 @@
     <div id="container-fotos" class="footer">
       <div class="footer-container">
         <div class="footer-item">
-          <a href="https://www.instagram.com/seuperfil" target="_blank">
+          <a
+            href="https://www.instagram.com/psi_alanafernandes/"
+            target="_blank"
+          >
             <img
               src="img/vecteezy_instagram-black-logo-on-transparent-background_14414683.jpg"
               alt="Instagram"
@@ -162,19 +169,19 @@
           </a>
         </div>
         <div class="footer-item">
-          <a
-            href="https://api.whatsapp.com/send?phone=5511999999999"
-            target="_blank"
-          >
+          <a href="#" id="link-whatsapp" target="_blank">
             <img
-              src="img//vecteezy_black-whatsapp-logo-black-whatsapp-icon-free-vector_19490744.jpg"
+              src="img/vecteezy_black-whatsapp-logo-black-whatsapp-icon-free-vector_19490744.jpg"
               alt="WhatsApp"
             />
             WhatsApp
           </a>
         </div>
         <div class="footer-item">
-          <a href="https://goo.gl/maps/EXEMPLO" target="_blank">
+          <a
+            href="https://www.google.com/maps/place/Soberane+Live+%2B+Work/@-3.1081706,-60.0148806,17z/data=!3m1!4b1!4m6!3m5!1s0x926c054e89cf04a7:0x8992d917f5a2550f!8m2!3d-3.1081706!4d-60.0123057!16s%2Fg%2F11c4bc7nhc?entry=ttu"
+            target="_blank"
+          >
             <img src="img/location.jpg" alt="Localização" />
             Localização
           </a>
@@ -213,6 +220,35 @@
           document
             .getElementById("container-fotos")
             .scrollIntoView({ behavior: "smooth" });
+        });
+    </script>
+    <script>
+      document
+        .getElementById("btn-vamos-agendar")
+        .addEventListener("click", function () {
+          window.open(
+            "https://api.whatsapp.com/send?phone=559282272222",
+            "_blank"
+          );
+        });
+
+      document
+        .getElementById("btn-vamos-conversar")
+        .addEventListener("click", function () {
+          window.open(
+            "https://api.whatsapp.com/send?phone=559282272222",
+            "_blank"
+          );
+        });
+
+      document
+        .getElementById("link-whatsapp")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          window.open(
+            "https://api.whatsapp.com/send?phone=559282272222",
+            "_blank"
+          );
         });
     </script>
   </body>
