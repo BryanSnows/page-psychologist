@@ -192,7 +192,7 @@ html {
 
 .text-content {
   width: 50%;
-  color: #000;
+  color: #69531a;
   text-align: center;
   padding: 20px;
 }
@@ -204,7 +204,7 @@ html {
 }
 
 .text-content p {
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 20px;
 }
 
@@ -222,4 +222,83 @@ html {
 
 .text-content button:hover {
   opacity: 0.8;
+}
+
+/* Novo estilo para o container-7 */
+.container-7 {
+  background-image: url("./img/page1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container-7 .text-content {
+  width: 30%;
+  color: #69531a;
+  text-align: left;
+  margin-right: 20px; /* Ajuste a margem para a direita */
+}
+
+.container-7 .text-content h2 {
+  font-size: 40px;
+}
+
+.container-7 .text-content p {
+  font-size: 30px;
+}
+
+.container-7 .checklist {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.container-7 .checklist p {
+  margin: 5px 0;
+}
+
+.container-7 .carousel-container {
+  width: 40%;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-7 .carousel {
+  display: flex;
+}
+
+.container-7 .carousel-slide {
+  min-width: 100%;
+  transition: 0.5s ease;
+}
+
+.container-7 .carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.container-7 .carousel-prev,
+.container-7 .carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.container-7 .carousel-prev {
+  left: 10px;
+}
+
+.container-7 .carousel-next {
+  right: 10px;
 }
