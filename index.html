@@ -56,12 +56,12 @@
       </div>
     </div>
     <div class="container-5">
-      <button class="btn expand">Presencial</button>
-      <button class="btn expand">Online</button>
-      <button class="btn expand">Abordagem</button>
-      <button class="btn expand">Fotos</button>
+      <button id="btn-presencial" class="btn expand">Presencial</button>
+      <button id="btn-online" class="btn expand">Online</button>
+      <button id="btn-abordagem" class="btn expand">Abordagem</button>
+      <button id="btn-fotos" class="btn expand">Fotos</button>
     </div>
-    <div class="container-6">
+    <div id="container-presencial" class="container-6">
       <div class="carousel-container">
         <!-- Carrossel de fotos -->
         <div class="carousel">
@@ -94,7 +94,7 @@
       </div>
     </div>
     <!-- Novo container para Atendimento Online -->
-    <div class="container-7">
+    <div id="container-online" class="container-7">
       <div class="text-content">
         <h2 class="expand">Atendimento Online</h2>
         <p>
@@ -127,7 +127,7 @@
       </div>
     </div>
 
-    <div class="container-8">
+    <div id="container-abordagem" class="container-8">
       <div class="text-side">
         <p>
           A abordagem Psicanalítica tem sua ênfase na investigação de processos
@@ -150,7 +150,7 @@
       </div>
     </div>
     <!-- Rodapé -->
-    <div class="footer">
+    <div id="container-fotos" class="footer">
       <div class="footer-container">
         <div class="footer-item">
           <a href="https://www.instagram.com/seuperfil" target="_blank">
@@ -182,5 +182,38 @@
       </div>
     </div>
     <script src="carousel.js"></script>
+    <script>
+      document
+        .getElementById("btn-presencial")
+        .addEventListener("click", function () {
+          document
+            .getElementById("container-presencial")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      document
+        .getElementById("btn-online")
+        .addEventListener("click", function () {
+          document
+            .getElementById("container-online")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      document
+        .getElementById("btn-abordagem")
+        .addEventListener("click", function () {
+          document
+            .getElementById("container-abordagem")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      document
+        .getElementById("btn-fotos")
+        .addEventListener("click", function () {
+          document
+            .getElementById("container-fotos")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+    </script>
   </body>
 </html>
