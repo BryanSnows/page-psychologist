@@ -34,7 +34,7 @@ html {
 }
 
 .text-container {
-  color: #69531a;
+  color: #7d5641;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -97,6 +97,7 @@ html {
 }
 
 .about-overlay {
+  margin-top: 500px;
   background-color: #fff8e975;
   width: 45%;
   height: auto;
@@ -132,7 +133,7 @@ html {
 
 .container-5 button {
   font-size: 50px;
-  background-color: #ffda8b;
+  background-color: bisque;
   color: #69531a;
   border: none;
   padding: 15px 30px;
