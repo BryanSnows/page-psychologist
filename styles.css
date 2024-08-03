@@ -116,21 +116,22 @@ html {
 }
 
 .about-text-container p {
+  text-align: justify;
   font-size: 25.5px;
   margin-top: 20px;
 }
 
 .container-5 {
-  /* background-color: #fff8e9; */
+  /* background-image: url("./img/presencial-8.jpeg"); */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  height: 50vh;
+  height: 30vh;
 }
 
 .container-5 button {
-  font-size: 24px;
+  font-size: 50px;
   background-color: #ffda8b;
   color: #69531a;
   border: none;
@@ -146,7 +147,7 @@ html {
 }
 
 .container-6 {
-  background-image: url("./img/page1.jpg");
+  background-image: url("./img/SITEE.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -154,6 +155,10 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container-6 p {
+  text-align: justify;
 }
 
 .carousel-container {
@@ -232,9 +237,9 @@ html {
 }
 
 .text-content button {
-  font-size: 24px;
-  background-color: #fde1a0;
-  color: #000;
+  font-size: 50px;
+  background-color: #000;
+  color: #fde1a0;
   border: none;
   padding: 15px 30px;
   cursor: pointer;
